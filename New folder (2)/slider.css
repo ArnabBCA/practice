@@ -1,0 +1,32 @@
+.sliderContainer{
+    position: relative;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    aspect-ratio: 16/9;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.sliderNav{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.sliderNav a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}

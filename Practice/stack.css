@@ -1,0 +1,32 @@
+.stack{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box:nth-of-type(1){
+    background-color: red;
+}
+.box:nth-of-type(2){
+    background-color: skyblue;
+}
+.box:nth-of-type(3){
+    background-color: purple;
+}
+.box:nth-of-type(4){
+    background-color: green;
+}
+.box:nth-of-type(5){
+    background-color: yellow;
+}
+.box:nth-of-type(6){
+    background-color: pink;
+}

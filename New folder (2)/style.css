@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins , sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: pink;
+    max-width: 1280px;
+    margin: auto;
+    background: url(assets/wallpaper.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

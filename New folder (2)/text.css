@@ -1,0 +1,35 @@
+.textContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 460px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text span{
+    font-size: 50px;
+    font-weight: 600;
+    display:inline block;
+}
+span:nth-of-type(1){
+    color: white;
+}
+span:nth-of-type(2){
+    width: 460px;
+    color: aqua;
+    border-right: 5px solid aqua;
+    animation: typing 5s steps(8) infinite;
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    form{
+        width: 0px;
+    }
+}

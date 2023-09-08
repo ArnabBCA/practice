@@ -1,0 +1,61 @@
+.formContainer {
+  max-width: 350px; /* Set a maximum width */
+  width: 100%; /* Ensure it takes full width if the screen is narrower than 400px */
+  background: transparent;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px; /* You have padding twice, remove one of them */
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.508);
+}
+
+.formContainer span {
+  font-size: 50px;
+  font-weight: 900;
+  color: white
+}
+
+.formContainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.formContainer form input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.formContainer form input::placeholder {
+  color: white;
+}
+
+.formContainer form button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: aqua;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: poppins, sans-serif;
+  transition: .5s;
+}
+
+.formContainer form button:hover{
+  box-shadow: 0 0 1rem aqua;
+}

@@ -1,0 +1,37 @@
+.textContainer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.textContainer span{
+  font-size: 5em;
+  margin: 10px;
+}
+.typing-demo span{
+  font-size: 5em;
+}
+.typing-demo{
+    margin: 10px;
+    width: 460px;
+    animation: typing 5s steps(8) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+    letter-spacing: 10px;
+  }
+  
+  @keyframes typing {
+    100%,50%,30%{
+        width: 460px;
+    }
+    0%{
+        width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

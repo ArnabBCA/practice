@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <span>LOGO</span>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div id="hamburger" class="hamburger">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="navExpand" class="navExpand">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="textContainer">
+            <div class="text">
+                <span>Hi I am a</span>
+                <span>Example</span>
+            </div>
+        </div>
+        <div class="formContainer">
+            <span>Login</span>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="password">
+                <button>Submit</button>
+            </form>
+        </div>
+        <div class="sliderContainer">
+            <div class="slider">
+                <img id="slide-1" src="assets/wall1.jpg" alt="">
+                <img id="slide-2" src="assets/wall2.jpg" alt="">
+                <img id="slide-3" src="assets/wall3.jpg" alt="">
+            </div>
+            <div class="sliderNav">
+                <a href="#slide-1" onclick="return false;"></a>
+                <a href="#slide-2" onclick="return false;"></a>
+                <a href="#slide-3" onclick="return false;"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+          <h3>Footer Example</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis scelerisque, gravida sapien non, cursus augue. Aenean id pretium turpis. Suspendisse eros nunc, sollicitudin nec.</p>
+          <ul class="socials">
+            <li><img src="assets/facebook.png" alt=""></li>
+            <li><img src="assets/instagram.png" alt=""></li>
+            <li><img src="assets/youtube.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy <span id="year"></span> <a href="#">@coding_dev_</a> </p>
+          <div class="footer-menu">
+            <ul class="f-menu">
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>

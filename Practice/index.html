@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stack.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="welcome.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navBar">
+        <div class="container">
+            <span>LOGO</span>
+            <div class="navLinks">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+                <div class="hamBurger" id="menu">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navExpand">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="textContainer">
+            <span>Hi</span>
+            <div class="typing-demo">
+                <span id="text"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="stack">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="contactContainer">
+        <div class="contact">
+            <img src="images/conatct.png" alt="">
+            <div class="contactForm">
+                <form action="" id="form">
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <span class="error">W</span>
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="password" placeholder="Password">
+                    <span class="error">Password is Weak</span>
+                    <input type="text" placeholder="Confirm Password">
+                    <button type='submit'>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
